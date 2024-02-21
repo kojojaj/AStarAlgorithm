@@ -1,0 +1,26 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: Katalog pośredni (x64\Release\) zawiera pliki udostępnione z innego projektu (SI_v6.vcxproj, SI_v6_DepthFirstSearch.vcxproj). Może to spowodować niepoprawne zachowanie podczas oczyszczania i ponownej kompilacji.
+  main.cpp
+C:\Users\Miko\source\repos\SI_v6\main.cpp(527,100): warning C4244: "+=": konwersja z "double" do "_Ty", możliwa utrata danych
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Miko\source\repos\SI_v6\main.cpp(531,120): warning C4244: "=": konwersja z "double" do "_Ty", możliwa utrata danych
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Miko\source\repos\SI_v5\matplotlibcpp.h(1818,57): warning C4244: "=": konwersja z "size_t" do "_Ty", możliwa utrata danych
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\Miko\source\repos\SI_v5\matplotlibcpp.h(2885,16): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „bool matplotlibcpp::plot<double>(const std::vector<double,std::allocator<double>> &,const std::string &)” funkcji szablon
+C:\Users\Miko\source\repos\SI_v5\matplotlibcpp.h(1010,59): warning C4244: "argument": konwersja z "const double" do "long", możliwa utrata danych
+C:\Users\Miko\source\repos\SI_v6\main.cpp(255,8): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „bool matplotlibcpp::scatter<double,double>(const std::vector<double,std::allocator<double>> &,const std::vector<double,std::allocator<double>> &,const double,const std::map<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>> &)” funkcji szablon
+  Trwa generowanie kodu
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+C:\Users\Miko\source\repos\SI_v6\main.cpp(213): warning C4715: "DrawThePath”: niewszystkie ścieżki kodu zwracają wartość
+  All 597 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Zakończono generowanie kodu
+  SI_v6.vcxproj -> C:\Users\Miko\source\repos\SI_v6\x64\Release\SI_v6_Graphs.exe
