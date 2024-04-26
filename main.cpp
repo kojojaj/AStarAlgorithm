@@ -1,13 +1,3 @@
-/*
-Mechatronika II
-2023 / 2024
-Sztuczna Inteligencja
-"Grafy"
-
-Miko³aj Marcinkowski 177631
-Wiktor Smolski 175402
-*/
-
 #include <iostream>
 #include <vector>
 #include <map>
@@ -273,7 +263,7 @@ void DepthFirstSearch(std::vector<std::vector<int>>Labirynth, std::vector<std::v
 	for (int i = Start - 1; i < nodes;) {						//Start analyzing graph from the defined Start point.
 		int ifFinish = 0;
 		DeadEnd = 1;											//Set the flag of DeadEnd (If actual node is not dead end then the flag will be set as "0".
-		visited.at(i) = 1;										//Mark "i-ty wêze³" as visited.
+		visited.at(i) = 1;										//Mark "i-ty wÃªzeÂ³" as visited.
 		std::cout << "I am at node: " << i + 1 << std::endl;	//Tell me where you are currently.
 
 		for (int j = 0; j < (int)Path.size(); j++) {			//Tell me about path you've been through :P
